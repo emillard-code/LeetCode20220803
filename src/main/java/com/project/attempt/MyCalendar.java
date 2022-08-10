@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class MyCalendar {
 
-    private Set<Integer> dateSet = new HashSet<Integer>();
+    private final Set<Integer> dateSet = new HashSet<>();
 
     public MyCalendar() {
 
