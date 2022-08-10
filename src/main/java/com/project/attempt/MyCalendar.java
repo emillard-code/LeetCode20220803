@@ -13,7 +13,7 @@ public class MyCalendar {
 
     public boolean book(int start, int end) {
 
-        for (int i = start; i <= end; i++) {
+        for (int i = start; i < end; i++) {
 
             if (dateSet.contains(i)) {
                 return false;
